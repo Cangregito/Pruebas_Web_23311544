@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reservas de Vuelos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="usuario.png">
+<center>
+    <h1 class="titulo" style="text-align: center;">Bienvenido al Sistema de Reservas de Vuelos</h1>
+    <!-- Formulario de búsqueda de vuelos -->
+    <form action="vuelo.php" method="post">
+        <label for="origin">Origen:</label>
+        <input type="text" id="origen" name="origen" required>
+        <label for="destination">Destino:</label>
+        <input type="text" id="destino" name="destino" required>
+        <label for="date">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <input type="submit" value="Buscar Vuelos">
+    </form>
+<a href="index.html">
+    <button  style="margin: 20px; color: blue; border: solid rgb(140, 0, 255); font-size: 15pt;" >Inicio</bu>
+  </a>
+</center>
+</body>
+</html>
